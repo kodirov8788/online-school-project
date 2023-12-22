@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-dead-1 {
+    padding: 14px 0;
+}
+
 .nav-head {
     border-radius: 8px;
     background: #ff9500;
@@ -77,10 +85,10 @@
 
 @media screen and (max-width: 480px) {
     .nav-head {
-        margin: 40px 16px;
-        padding: 10px 10px;
+        margin: 0 auto;
+        padding: 10px;
         font-size: 14px;
-        width: 80%;
+        width: 85%;
     }
 
     .nav-head svg {
@@ -91,7 +99,7 @@
         display: none;
     }
     .nav-menu {
-        margin: 0 16px;
+        margin: 0 auto;
     }
 
     .nav-menu-2 button {
@@ -100,4 +108,5 @@
     .nav-menu-2 button {
         padding: 12px 20px;
     }
+
 }
