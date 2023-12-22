@@ -1,5 +1,5 @@
 * {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .cources-cards {
@@ -18,7 +18,7 @@
     flex: 1;
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .number {
@@ -48,12 +48,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .item h1 {
     color: #333;
     font-size: 20px;
-    font-weight: 500;   
+    font-weight: 500;
 }
 
 .item p {
@@ -79,7 +80,6 @@
     font-weight: 400;
 }
 
-
 @media screen and (max-width: 480px) {
     .cources-cards {
         grid-template-columns: 1fr;
@@ -97,5 +97,9 @@
     }
     .item p {
         font-size: 14px;
+    }
+    .card {
+        padding: 25px;
+        gap: 25px;
     }
 }
