@@ -1,0 +1,101 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.cources-cards {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.number {
+    color: #262626;
+    text-align: right;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card h2 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.items-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item h1 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+.item p {
+    color: #59595a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 6px;
+    background: #f7f7f8;
+    height: 50px;
+    width: 140px;
+}
+
+.right p {
+    color: #59595a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 480px) {
+    .cources-cards {
+        grid-template-columns: 1fr;
+    }
+    .number {
+        font-size: 50px;
+    }
+    .item {
+        flex-direction: column;
+        align-items: normal;
+        gap: 10px;
+    }
+    .item h1 {
+        font-size: 16px;
+    }
+    .item p {
+        font-size: 14px;
+    }
+}
