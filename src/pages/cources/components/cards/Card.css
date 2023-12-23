@@ -49,6 +49,18 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.item:hover {
+    box-shadow: 0 0 10px rgb(255, 234, 204);
+    transition: all 0.5s;
+}
+
+.item:hover .right,
+.item .right:hover {
+    background-color: rgb(255, 234, 204);
+    transition: all 0.5s;
 }
 
 .item h1 {
