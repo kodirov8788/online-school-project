@@ -1,5 +1,4 @@
 .singup {
-    width: 1200px;
     height: auto;
     /* border: 1px solid black; */
     margin: auto;
@@ -17,14 +16,14 @@
     gap: 15px;
 }
 
-.singup_navbar>h1 {
+.singup_navbar > h1 {
     font-size: 18px;
     color: white;
     font-weight: 500;
     cursor: pointer;
 }
 
-.singup_navbar>i {
+.singup_navbar > i {
     font-size: 25px;
     color: white;
     display: flex;
@@ -44,7 +43,7 @@
         border-radius: 10px;
     }
 
-    .singup_navbar>h1 {
+    .singup_navbar > h1 {
         width: 100%;
         font-size: 15px;
         display: flex;
@@ -52,7 +51,6 @@
         margin-left: 20px;
         font-family: sans-serif;
     }
-
 }
 
 /* -------------------------------------------------------------- */
@@ -66,20 +64,20 @@
     margin-top: 10px;
 }
 
-.singup_navbartwo>img {
+.singup_navbartwo > img {
     width: 40px;
     margin-left: 100px;
     cursor: pointer;
 }
 
-.singup_navbartwo>ul {
+.singup_navbartwo > ul {
     list-style: none;
     margin-left: 25px;
     gap: 20px;
     display: flex;
 }
 
-.singup_navbartwo>ul>li>a {
+.singup_navbartwo > ul > li > a {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -94,7 +92,7 @@
     margin-left: 350px;
 }
 
-.singup_navbartwo_login>.Up {
+.singup_navbartwo_login > .Up {
     width: 105px;
     height: 100%;
     font-size: 13px;
@@ -105,7 +103,7 @@
     cursor: pointer;
 }
 
-.singup_navbartwo_login>.In {
+.singup_navbartwo_login > .In {
     width: 95px;
     color: white;
     height: 100%;
@@ -119,7 +117,7 @@
     cursor: pointer;
 }
 
-.singup_navbartwo>.fries {
+.singup_navbartwo > .fries {
     display: none;
 }
 
@@ -128,12 +126,12 @@
         width: 100%;
     }
 
-    .singup_navbartwo>img {
+    .singup_navbartwo > img {
         width: 40px;
         margin-left: 3px;
     }
 
-    .singup_navbartwo>ul {
+    .singup_navbartwo > ul {
         display: none;
     }
 
@@ -143,15 +141,15 @@
         margin-left: 90px;
     }
 
-    .singup_navbartwo_login>.Up {
+    .singup_navbartwo_login > .Up {
         height: 100%;
     }
 
-    .singup_navbartwo_login>.In {
+    .singup_navbartwo_login > .In {
         height: 100%;
     }
 
-    .singup_navbartwo>.fries {
+    .singup_navbartwo > .fries {
         display: block;
         margin-left: 16px;
         font-size: 30px;
@@ -176,8 +174,6 @@
     /* border: 1px solid black; */
 }
 
-
-
 .singup_main_left_box {
     width: 90%;
     height: 470px;
@@ -185,32 +181,33 @@
     margin-top: 90px;
 }
 
-.singup_main_left_box>h1 {
+.singup_main_left_box > h1 {
     font-family: sans-serif;
     margin-top: 10px;
     margin-left: 95px;
 }
 
-.singup_main_left_box>p {
+.singup_main_left_box > p {
     margin-left: 95px;
     font-size: 13px;
     font-family: sans-serif;
     margin-top: 10px;
-    color: #59595A;
+    color: #59595a;
 }
 
 .web_design_box {
     width: 540px;
     height: 210px;
     border: 1px solid white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     margin-left: 95px;
     border-radius: 10px;
     margin-top: 30px;
     background-color: white;
 }
 
-.web_design_box>p {
+.web_design_box > p {
     margin-top: 22px;
     font-size: 14px;
     margin-left: 10px;
@@ -227,13 +224,13 @@
     padding-left: 10px;
 }
 
-.img_and_btn>h2 {
+.img_and_btn > h2 {
     font-family: sans-serif;
     font-size: 20px;
     margin-left: 10px;
 }
 
-.img_and_btn>button {
+.img_and_btn > button {
     width: 100px;
     height: 40px;
     border-color: green;
@@ -259,14 +256,16 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .right_arrow {
     width: 40px;
     height: 40px;
     background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,14 +288,14 @@
         margin-top: 70px;
     }
 
-    .singup_main_left_box>h1 {
+    .singup_main_left_box > h1 {
         width: 100%;
         margin-left: 10px;
         margin-top: -50px;
         font-size: 24px;
     }
 
-    .singup_main_left_box>p {
+    .singup_main_left_box > p {
         width: 97%;
         font-size: 17px;
         margin-left: 10px;
@@ -310,7 +309,7 @@
         border-radius: 8px;
     }
 
-    .web_design_box>p {
+    .web_design_box > p {
         width: 100%;
         font-size: 19px;
         margin-top: 30px;
@@ -327,11 +326,11 @@
         margin-top: -20px;
     }
 
-    .img_and_btn>img {
+    .img_and_btn > img {
         margin-left: 10px;
     }
 
-    .img_and_btn>button {
+    .img_and_btn > button {
         margin-left: 60px;
     }
 
@@ -375,12 +374,12 @@
     padding-top: 10px;
 }
 
-.singup_main_right_text>h1 {
+.singup_main_right_text > h1 {
     font-family: sans-serif;
     margin-top: 20px;
 }
 
-.singup_main_right_text>p {
+.singup_main_right_text > p {
     font-family: sans-serif;
 }
 
@@ -392,19 +391,20 @@
     margin-top: 30px;
 }
 
-.right_signup>h2 {
+.right_signup > h2 {
     font-size: 23px;
     font-family: sans-serif;
     margin-top: 30px;
 }
 
-.right_signup>input {
+.right_signup > input {
     width: 100%;
     height: 40px;
     padding-left: 20px;
     border-radius: 8px;
     border: transparent;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+        rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     margin-top: 4px;
 }
 
@@ -430,16 +430,16 @@
     align-items: center;
 }
 
-.right_chekbox>input {
+.right_chekbox > input {
     width: 20px;
     height: 20px;
 }
 
-.right_signup>p {
+.right_signup > p {
     text-align: center;
     margin-top: 15px;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .right_signup_btn2 {
@@ -466,7 +466,8 @@
         margin-left: 6px;
         margin-top: 90px;
         padding-top: 25px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     .right_chekbox {
@@ -485,7 +486,7 @@
     align-items: center;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     .singup_footer {
         width: 95%;
         height: 550px;
@@ -493,7 +494,9 @@
         margin-left: 5px;
         position: absolute;
         border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+            rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+            rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     }
 }
 
@@ -555,17 +558,17 @@
     /* border: 1px solid black; */
 }
 
-.footer_first>h2 {
+.footer_first > h2 {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
-.footer_first>p {
+.footer_first > p {
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 15px;
-    color: #59595A;
+    color: #59595a;
 }
 
 .footer_second {
@@ -574,17 +577,17 @@
     /* border: 1px solid black; */
 }
 
-.footer_second>h2 {
+.footer_second > h2 {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
-.footer_second>p {
+.footer_second > p {
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 15px;
-    color: #59595A;
+    color: #59595a;
 }
 
 .footer_part_three {
@@ -594,7 +597,7 @@
     margin-left: 10px;
 }
 
-.footer_part_three>h2 {
+.footer_part_three > h2 {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -610,19 +613,18 @@
     gap: 6px;
 }
 
-.three_icon>i {
+.three_icon > i {
     font-size: 30px;
 }
 
 @media (max-width: 600px) {
-   
     .singup_footer_In {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .footer_part_one>img{
+    .footer_part_one > img {
         margin-left: 5px;
     }
 
@@ -637,43 +639,43 @@
         margin-left: 5px;
     }
 
-    .footer_first{
+    .footer_first {
         margin-left: 5px;
     }
 
-    .part_one_letter>p {
+    .part_one_letter > p {
         font-size: 22px;
         margin-top: 0px;
     }
 
-    .part_one_letter>i {
+    .part_one_letter > i {
         font-size: 25px;
         margin-left: 5px;
     }
 
-    .part_one_call>p {
+    .part_one_call > p {
         font-size: 20px;
         margin-top: 2px;
     }
 
-    .part_one_call>i {
+    .part_one_call > i {
         font-size: 25px;
         margin-left: 3px;
     }
 
-    .part_one_location>p {
+    .part_one_location > p {
         width: 100%;
         font-size: 20px;
         margin-left: 3px;
     }
 
-    .part_one_location>i {
+    .part_one_location > i {
         font-size: 25px;
         margin-top: 10px;
         margin-left: 3px;
     }
 
-    .footer_part_three{
+    .footer_part_three {
         margin-left: 6px;
         margin-top: 0px;
     }
