@@ -78,9 +78,17 @@
     line-height: 150%; /* 27px */
 }
 
+.nav-menu-2 button a {
+    text-decoration: none;
+    color: #262626;
+}
+
 .nav-menu-2 button:nth-child(2) {
     background-color: #ff9500;
-    color: #fff;
+}
+
+.nav-menu-2 button:nth-child(2) a {
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -108,5 +116,4 @@
     .nav-menu-2 button {
         padding: 12px 20px;
     }
-
 }

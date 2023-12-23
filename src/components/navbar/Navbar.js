@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../assets/logo.jpg";
+import logo from "../../pages/cources/components/assets/logo.jpg";
 
 function Navbar() {
     return (
@@ -47,8 +47,12 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="nav-menu-2">
-                    <button>Sign Up</button>
-                    <button>Login</button>
+                    <button>
+                        <a href="/signup">Sign Up</a>
+                    </button>
+                    <button>
+                        <a href="/signin">Login</a>
+                    </button>
                 </div>
             </div>
         </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/logo.jpg";
-import { ReactComponent as Email } from "../assets/email.svg";
-import { ReactComponent as Tele } from "../assets/tel.svg";
-import { ReactComponent as Location } from "../assets/location.svg";
+import logo from "../../pages/cources/components/assets/logo.jpg";
+
+import { ReactComponent as Email } from "../../pages/cources/components/assets/email.svg";
+import { ReactComponent as Tele } from "../../pages/cources/components/assets/tel.svg";
+import { ReactComponent as Location } from "../../pages/cources/components/assets/location.svg";
 
 function Footer() {
     return (
