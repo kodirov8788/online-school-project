@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-dead-1 {
+    padding: 14px 0;
+}
+
+.nav-head {
+    border-radius: 8px;
+    background: #ff9500;
+    width: 95%;
+    padding: 14px 0;
+    margin: 14px auto;
+    color: #fff;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.nav-menu-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #262626;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 14px 20px;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #f1f1f3;
+}
+
+.nav-menu img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.nav-menu-2 button {
+    padding: 14px 34px;
+    border: none;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #262626;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    line-height: 150%; /* 27px */
+}
+
+.nav-menu-2 button a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.nav-menu-2 button:nth-child(2) {
+    background-color: #ff9500;
+}
+
+.nav-menu-2 button:nth-child(2) a {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-head {
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .nav-head svg {
+        width: 20px;
+        height: 20px;
+    }
+    .ul {
+        display: none;
+    }
+    .nav-menu {
+        margin: 0 auto;
+    }
+
+    .nav-menu-2 button {
+        font-size: 14px;
+    }
+    .nav-menu-2 button {
+        padding: 12px 20px;
+    }
+}
