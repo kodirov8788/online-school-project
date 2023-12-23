@@ -5,13 +5,15 @@ import { Link } from 'react-router-dom'
 import { MdEmail } from "react-icons/md";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer';
 
 function Contact() {
     return (
         <div className="contact">
 
             {/* ---------------------------------- Header--------------------------- */}
-            <header>
+            {/* <header>
                 <div className="cleft">
                     <img src={image1} alt="" />
 
@@ -44,7 +46,8 @@ function Contact() {
                     <button id='login'>Login</button>
                 </div>
 
-            </header>
+            </header> */}
+            <Navbar />
             {/* ---------------------------------- Header--------------------------- */}
 
 
@@ -131,7 +134,7 @@ function Contact() {
 
 
             {/* -------------------------------- footer page ---------------------------------------- */}
-            <footer>
+            {/* <footer>
                 <div className="cfleft">
                     <img src={image1} alt="" />
                     <ul>
@@ -163,7 +166,8 @@ function Contact() {
                     <b>Social Profiles</b>
                 </div>
 
-            </footer>
+            </footer> */}
+            <Footer />
 
             {/* -------------------------------- footer page ---------------------------------------- */}
 
