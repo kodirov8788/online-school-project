@@ -9,6 +9,19 @@ function App() {
     return (
         <div className="App">
             <h1>Hello World</h1>
+            <button
+                aria-label="Increment value"
+                onClick={() => dispatch(increment())}
+            >
+                Increment
+            </button>
+            <span>{count}</span>
+            <button
+                aria-label="Decrement value"
+                onClick={() => dispatch(decrement())}
+            >
+                Decrement
+            </button>
         </div>
     );
 }
