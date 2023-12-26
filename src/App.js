@@ -4,13 +4,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment } from "./redux/counter/counterSlice";
 
 function App() {
-<<<<<<< HEAD
-  return (
-    <div className="App">
-      
-    </div>
-  );
-=======
     const count = useSelector((state) => state.counter.value);
     const dispatch = useDispatch();
     return (
@@ -31,7 +24,6 @@ function App() {
             </button>
         </div>
     );
->>>>>>> ed174aa7b36dd8707e056e8ac5c5f3417bae7b62
 }
 
 export default App;
