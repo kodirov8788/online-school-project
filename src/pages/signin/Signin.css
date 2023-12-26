@@ -1,0 +1,318 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.signin-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 350px;
+}
+
+.sec_l {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-right: 200px;
+    gap: 40px;
+}
+
+.div1>p {
+    color: var(--Grey-15, #262626);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 57px */
+}
+
+.div1>span {
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--Grey-35, #59595a);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.div2 {
+    display: flex;
+    padding: 50px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    align-self: stretch;
+    background-color: whitesmoke;
+}
+
+.div2>span {
+    flex: 1 0 0;
+    color: var(--Grey-30, #4c4c4d);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3>p {
+    flex: 1 0 0;
+    color: var(--Grey-20, #333);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+}
+
+.middlediv>p {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 27px */
+}
+
+.svgs {
+    display: flex;
+    gap: 10px;
+    padding-left: 500px;
+}
+
+.sec_r {
+    margin-top: -300px;
+
+    display: flex;
+    width: 50 0px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: whitesmoke;
+}
+
+.div4>p {
+    align-self: stretch;
+    color: var(--Grey-15, #262626);
+    text-align: center;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.div4>span {
+    align-self: stretch;
+    color: var(--Grey-30, #4c4c4d);
+    text-align: center;
+    padding-top: 30px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div5>p {
+    align-self: stretch;
+    color: var(--Grey-15, #262626);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 27px */
+}
+
+.div5>input {
+    display: flex;
+    padding: 14px 150px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+}
+
+.div5>span {
+    align-self: stretch;
+    color: var(--Grey-30, #4c4c4d);
+    text-align: right;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.div6>button {
+    margin-top: 20px;
+    display: flex;
+    padding: 14px 220px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background: var(--Orange-50, #FF9500);
+}
+
+.line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google>button {
+    margin-top: 30px;
+    display: flex;
+    padding: 14px 168px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: white;
+}
+
+.google>p {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.google>p>span {
+
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--Grey-15, #262626);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.signin-footer {
+    padding-top: 40px;
+    display: flex;
+    gap: 190px;
+    position: absolute;
+    top: 1100px;
+}
+
+.foot_l>span {
+    display: flex;
+
+    gap: 20px;
+}
+
+.foot_c>p {
+    align-self: stretch;
+    color: var(--Grey-15, #262626);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+
+}
+
+.foot_c>span {
+    align-self: stretch;
+    color: var(--Grey-35, #59595A);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.foot_r {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.foot_r>p {
+    align-self: stretch;
+    color: var(--Grey-15, #262626);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+}
+
+.foot_r>span {
+    align-self: stretch;
+    color: var(--Grey-35, #59595A);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.foot_rr {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot_rr>p {
+    align-self: stretch;
+    color: var(--Grey-15, #262626);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+input {
+    outline: none;
+}
