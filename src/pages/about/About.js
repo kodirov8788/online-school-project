@@ -10,9 +10,9 @@ function About() {
        <div>
             <div className="container">
                 <div className="text">
-                    <h1 className='h11'>About Skillbridge</h1>
+                    <h1 className='h11' id='idewq'>About Skillbridge</h1>
                 </div>
-                <div className="texts"><p className='ppp'>Welcome to our platform, where we are passionate about empowering individuals to master the world of design and development. We offer a wide range of online courses designed to equip learners with the skills and knowledge needed to succeed in the ever-evolving digital landscape.</p></div>
+                <div className="texts"><p className='ppp' id='sefywd'>Welcome to our platform, where we are passionate about empowering individuals to master the world of design and development. We offer a wide range of online courses designed to equip learners with the skills and knowledge needed to succeed in the ever-evolving digital landscape.</p></div>
             </div>
             <div className="archiviment">
                 <div className="uptodiv">

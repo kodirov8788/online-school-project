@@ -266,4 +266,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 21px */
     }
+    .ppp{
+        transform: translateY(70px);
+    }
+    .h11{
+        transform: translateY(70px);
+    }
+    #idewq{
+        transform: translateY(-30px);
+    }
+    #sefywd{
+        transform: translateY(-20px);
+    }
 }
