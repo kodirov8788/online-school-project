@@ -86,7 +86,7 @@ function About() {
                 <div className="songi">
                     <div className="div1">
                         <h1 className='oxiria'>Together, let's shape the future of digital innovation</h1>
-                        <p className='oxirip'>Join us on this exciting learning journey and unlock your potential in design and development.</p>
+                        <p className='oxirip' id='newiiddd'>Join us on this exciting learning journey and unlock your potential in design and development.</p>
                     </div>
 
                     <button className='oxiribtn'>Join Now</button>
